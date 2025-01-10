@@ -4,7 +4,7 @@ lua54 "yes"
 
 author "neast | GitHub: @neasthetic"
 description "Collection of FiveM useful code snippets and features for resources/scripts developers."
-version "1.0.0"
+version "1.0.1"
 
 client_scripts {
     "client-side/*.lua"

@@ -16,7 +16,7 @@ function VersionCheck()
 
     SetTimeout(2500, function()
         -- 1) Primeiro, buscar a versão mais recente do fxmanifest.lua (COMO VOCÊ JÁ FAZ)
-        PerformHttpRequest(('https://raw.githubusercontent.com/%s/main/fxmanifest.lua'):format(Repository), function(status, response)
+        PerformHttpRequest(('https://raw.githubusercontent.com/%s/main/nt-modules/fxmanifest.lua'):format(Repository), function(status, response)
             if status ~= 200 then return end
 
             local LatestVersion = response:match("%sversion \"(.-)\"")
