@@ -1,0 +1,13 @@
+{
+    "version": "1.0.1",
+    "categories": {
+        "Improvements": [
+            "Added a version checker with details"
+        ], 
+
+        "Tests": [
+            "Trying new version checker method."
+        ]
+    }
+}
+  
